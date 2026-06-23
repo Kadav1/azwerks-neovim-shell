@@ -1,0 +1,7 @@
+./.git
+./dist
+./__pycache__
+./docs/ChatGPT-Neovim_Audit_and_Handoff.md
+./docs/implementation-handoff
+*.pyc
+*.pyo

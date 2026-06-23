@@ -1,0 +1,9 @@
+APP_ID = "com.azwerks.NvimShell"
+APP_NAME = "AZWERKS Neovim"
+EXECUTABLE_NAME = "azwerks-nvim-shell"
+DEFAULT_NVIM_PATH = "/home/blndsft/.local/bin/nvim"
+VERSION = "0.1.0"
+WINDOW_DEFAULT_WIDTH = 1200
+WINDOW_DEFAULT_HEIGHT = 800
+QUIT_ON_CHILD_EXIT = True
+DEBUG_ENV_VAR = "AZWERKS_NVIM_SHELL_DEBUG"

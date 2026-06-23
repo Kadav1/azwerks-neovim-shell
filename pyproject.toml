@@ -1,0 +1,9 @@
+[project]
+name = "azwerks-nvim-shell"
+version = "0.1.0"
+description = "A native Linux GTK/VTE application shell for launching terminal Neovim with AZWERKS desktop identity."
+readme = "README.md"
+requires-python = ">=3.10"
+
+[project.scripts]
+azwerks-nvim-shell = "azwerks_nvim_shell.main:main"

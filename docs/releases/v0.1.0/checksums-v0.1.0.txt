@@ -1,0 +1,1 @@
+bd7db5be0430dcfbc3c0ecaed65e8ca99bf918f0bd6a94293f8814d55f200a55  dist/azwerks-nvim-shell-v0.1.0-source.tar.gz

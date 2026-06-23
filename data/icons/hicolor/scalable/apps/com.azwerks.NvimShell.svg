@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-label="AZWERKS Neovim Shell icon">
+  <rect width="128" height="128" rx="22" fill="#202521"/>
+  <rect x="22" y="28" width="84" height="72" rx="10" fill="#23282b" stroke="#ddecc4" stroke-width="4"/>
+  <path d="M38 50l16 14-16 14" fill="none" stroke="#ceda4a" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M64 78h28" fill="none" stroke="#ddecc4" stroke-width="8" stroke-linecap="round"/>
+</svg>

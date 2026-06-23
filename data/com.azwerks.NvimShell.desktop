@@ -1,0 +1,11 @@
+[Desktop Entry]
+Type=Application
+Name=AZWERKS Neovim
+GenericName=Text Editor
+Comment=Launch Neovim inside the AZWERKS Neovim Shell
+Exec=azwerks-nvim-shell %F
+Icon=com.azwerks.NvimShell
+Terminal=false
+Categories=Utility;TextEditor;
+StartupNotify=true
+MimeType=text/plain;text/markdown;
