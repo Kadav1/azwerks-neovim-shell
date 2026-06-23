@@ -34,3 +34,4 @@
 - Added v0.1.0 archive handoff, checksum record, repository decision note, and post-release options.
 - Initialized local Git repository baseline and local annotated `v0.1.0` tag.
 - Published `main` and the existing `v0.1.0` tag to the GitHub remote.
+- Prepared GitHub Release draft for v0.1.0 with the clean source archive attached.
