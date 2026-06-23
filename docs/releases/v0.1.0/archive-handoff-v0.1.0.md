@@ -10,6 +10,8 @@ Neovim Shell.
 - Phase 9 verdict: `PASS WITH MINOR FINDINGS`.
 - Phase 10 verdict: `PASS`.
 - v0.1.0 is release-locked as a user-local release candidate.
+- Phase 13 published the local `main` branch and existing `v0.1.0` tag to the
+  GitHub remote.
 
 ## Archive Path
 
@@ -133,9 +135,13 @@ docs/releases/v0.1.0/
 Choose one maintenance path:
 
 - keep this as a source-only local release
-- use the local Git v0.1.0 baseline created in Phase 12 for future patches
+- use the GitHub-published v0.1.0 baseline for future patches
 - start packaging research as a separate track
 - mirror the archive and release records to long-term storage
 
 Phase 12 creates a local Git repository, initial release commit, and annotated
 `v0.1.0` tag. It does not create a remote and does not push.
+
+Phase 13 adds the GitHub remote, pushes `main`, and pushes the existing
+annotated `v0.1.0` tag. It does not create a GitHub Release and does not upload
+package artifacts.

@@ -2,8 +2,21 @@
 
 ## Current State
 
-Phase 12 initializes a local Git repository for this project, creates the
-initial v0.1.0 commit, and creates a local annotated `v0.1.0` tag.
+Phase 12 initialized a local Git repository for this project, created the
+initial v0.1.0 commit, and created a local annotated `v0.1.0` tag.
+
+Phase 13 added the GitHub remote and published the local baseline:
+
+```text
+https://github.com/Kadav1/azwerks-neovim-shell.git
+```
+
+Published refs:
+
+```text
+main
+v0.1.0
+```
 
 The v0.1.0 source archive exists and is verified:
 
@@ -11,8 +24,8 @@ The v0.1.0 source archive exists and is verified:
 dist/azwerks-nvim-shell-v0.1.0-source.tar.gz
 ```
 
-Phase 11 did not initialize Git. Phase 12 performs local Git initialization
-only.
+Phase 11 did not initialize Git. Phase 12 performed local Git initialization
+only. Phase 13 performed the first GitHub remote publish.
 
 ## Option A - Source-Only Local Release
 
@@ -103,10 +116,22 @@ git commit -m "Release azwerks Neovim Shell v0.1.0"
 git tag -a v0.1.0 -m "azwerks Neovim Shell v0.1.0"
 ```
 
-No remote is created and no push is performed.
+No remote was created and no push was performed during Phase 12.
+
+## Phase 13 GitHub Remote Publish
+
+Phase 13 added `origin`, verified the remote had no heads or tags before
+pushing, pushed `main`, and pushed the existing local annotated `v0.1.0` tag.
+
+No force push was used.
+
+No GitHub Release was created.
+
+No package artifacts were uploaded.
 
 ## Future Remote Command If Approved Later
 
 ```zsh
-git push origin main --tags
+git push origin main
+git push origin v0.1.0
 ```

@@ -103,3 +103,13 @@ create a local annotated `v0.1.0` tag without creating a remote or pushing.
 
 Status: completed locally. The initial commit records the release-locked
 project tree, and `v0.1.0` is a local annotated tag.
+
+## Phase 13 — GitHub Remote Publish
+
+Connect the local repository to the GitHub remote, verify the remote is empty,
+push `main`, and push the existing `v0.1.0` tag without force pushing or
+creating a GitHub Release.
+
+Status: completed. `origin` points to
+`https://github.com/Kadav1/azwerks-neovim-shell.git`, `main` is pushed, and the
+existing annotated `v0.1.0` tag is pushed.
